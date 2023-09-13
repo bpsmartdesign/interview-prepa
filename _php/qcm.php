@@ -1,6 +1,12 @@
 <?php
 /**** 1
  * What are the differences between `echo` and `print` in PHP?
+ * 
+ * ** 'echo' can take multiple params while 'print' can take only one param.
+ * ** 'echo' is faster than 'print'.
+ * ** 'echo' does not return any value while 'print' returns 1 so it can be used in expressions.
+ * ** 'echo' is an instant language construct while 'print' is a function;
+ *    so echo can be used without parentheses while print requires parentheses.
  */
 
 /**** 2
