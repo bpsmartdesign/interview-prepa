@@ -1,3 +1,4 @@
+<?php
 /**** PROBLEM 1
  * Write a php function to convert a json to an array,
  * consider the fact that one or more values in the json can also be the json.
