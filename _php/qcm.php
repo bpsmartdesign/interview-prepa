@@ -261,6 +261,8 @@
 
 /**** 31
  * What is the PHP scripting engine called?
+ * 
+ * ** Zend Engine
  */
 
 /**** 32
@@ -269,34 +271,58 @@
 
 /**** 33
  * What do we mean by ‘escaping to PHP’?
+ * 
+ * ** Escaping to PHP means to switch from HTML to PHP.
  */
 
 /**** 34
  * How many types of an array are there in PHP?
+ * 
+ * ** There are 3 types of arrays in PHP:
+ *    1. Indexed arrays: arrays with numeric index.
+ *    2. Associative arrays: arrays with named keys.
+ *    3. Multidimensional arrays: arrays containing one or more arrays.
  */
 
 /**** 35
  * What is the use of the function' imagetypes()'?
+ * 
+ * ** The function 'imagetypes()' returns the image format supported by the current PHP installation.
  */
 
 /**** 36
  * What is needed to be able to use the image function?
+ * 
+ * ** GD library is needed to be able to use the image function.
  */
 
 /**** 37
  * What is the main difference between require() and require_once()?
+ * 
+ * ** require() includes and evaluates a specific file while 
+ *    require_once() does that only if it has not been included before.
  */
 
 /**** 38
  * What is the primary difference between include_once() and include()?
+ * 
+ * ** include() includes and evaluates a specific file while
+ *    include_once() does that only if it has not been included before.
  */
 
 /**** 39
  * How do we set an infinite execution time for PHP script?
+ * 
+ * ** By using the function `set_time_limit()` => set_time_limit(0);
+ *    By using the function `ini_set()` => ini_set('max_execution_time', 0);
+ *    By updating the value of `max_execution_time` in php.ini file to 0.
  */
 
 /**** 40
  * How to export data into an Excel file?
+ * 
+ * ** By using the function `header()` => header('Content-Type: application/vnd.ms-excel');
+ *    By using the function `header()` => header('Content-Disposition: attachment; filename="filename.xls"');
  */
 
 /**** 41
