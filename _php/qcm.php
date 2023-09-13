@@ -462,10 +462,14 @@
 
 /**** 61
  * Is PHP single or multiple threads?
+ * 
+ * ** PHP is single threaded.
  */
 
 /**** 62
  * What are late static bindings in PHP
+ * 
+ * ** Late static bindings is a mechanism in PHP that allows static methods to be overridden in child classes.
  */
 
 /**** 63
@@ -474,18 +478,34 @@
 
 /**** 64
  * What is the use of Spaceship Operator?
+ * 
+ * ** The spaceship operator (<=>) is used to compare two expressions.
+ *    It returns 0 if both expressions are equal.
+ *    It returns 1 if the left is greater.
+ *    It returns -1 if the right is greater.
  */
 
 /**** 65
  * Explain what is a closure in PHP and why does it use the “use” identifier?
+ * 
+ * ** A closure is an anonymous function that can be stored in a variable.
+ *    The “use” identifier is used to pass variables from the parent scope to the closure.
  */
 
 /**** 66
  * How could we implement method overloading in PHP?
+ * 
+ * ** Method overloading can be implemented in PHP by using the magic method __call().
  */
 
 /**** 67
  * Provide some ways to mimic multiple constructors in PHP
+ * 
+ * ** Multiple constructors can be mimicked in PHP by using static methods.
+ *    Multiple constructors can be mimicked in PHP by using the magic method __callStatic().
+ *    Multiple constructors can be mimicked in PHP by using the magic method __invoke().
+ *    Multiple constructors can be mimicked in PHP by using the magic method __set_state().
+ *    Multiple constructors can be mimicked in PHP by using the magic method __clone().
  */
 
 /**** 68
@@ -494,46 +514,104 @@
 
 /**** 69
  * What are the types of variables present in PHP?
+ * 
+ * ** There are 8 types of variables in PHP:
+ *    1. Integers: whole numbers.
+ *    2. Doubles: floating point numbers.
+ *    3. Booleans: true or false.
+ *    4. NULL: no value.
+ *    5. Strings: sequence of characters.
+ *    6. Arrays: collection of values.
+ *    7. Objects: instances of classes.
+ *    8. Resources: special variables that hold references to resources external to PHP.
  */
 
 /**** 70
  * What is the use of the constant() function in PHP?
+ * 
+ * ** The constant() function is used to return the value of a constant.
  */
 
 /**** 71
  * What are the various constants predefined in PHP?
+ * 
+ * ** There are 8 types of constants predefined in PHP:
+ *    1. __LINE__: current line number of the file.
+ *    2. __FILE__: full path and filename of the file.
+ *    3. __DIR__: full path of the directory of the file.
+ *    4. __FUNCTION__: name of the function.
+ *    5. __CLASS__: name of the class.
+ *    6. __TRAIT__: name of the trait.
+ *    7. __METHOD__: name of the method.
+ *    8. __NAMESPACE__: name of the current namespace.
  */
 
 /**** 72
  * What is the meaning of break and continue statements in PHP?
+ * 
+ * ** The break statement is used to exit a loop.
+ *    The continue statement is used to skip the current iteration of a loop.
  */
 
 /**** 73
  * What is the use of session_start() and session_destroy() functions?
+ * 
+ * ** The session_start() function is used to start a session.
+ *    The session_destroy() function is used to destroy a session.
  */
 
 /**** 74
  * What is the use of lambda functions in PHP?
+ * 
+ * ** Lambda functions are anonymous functions that can be stored in a variable.
  */
 
 /**** 75
  * Differentiate between compile-time exception and runtime exception in PHP.
+ * 
+ * ** Compile-time exceptions are syntax errors that occur during the compilation of a script.
+ *    Runtime exceptions are errors that occur during the execution of a script.
  */
 
 /**** 76
  * What is htaccess? Why do we use it and where?
+ * 
+ * ** htaccess is a configuration file for use on web servers running the Apache Web Server software.
  */
 
 /**** 77
  * What are magic methods?
+ * 
+ * ** Magic methods are special methods that are automatically called when certain actions occur.
+ *    __construct() is called when a new object is created.
+ *    __destruct() is called when an object is destroyed.
+ *    __call() is called when a method is called that does not exist.
+ *    __callStatic() is called when a static method is called that does not exist.
+ *    __get() is called when a property is called that does not exist.
+ *    __set() is called when a property is set that does not exist.
+ *    __isset() is called when a property is checked if it exists.
+ *    __unset() is called when a property is unset.    
+ *    __sleep() is called when a script is serialized.
+ *    __wakeup() is called when a script is unserialized.
+ *    __toString() is called when an object is converted to a string.
+ *    __invoke() is called when an object is used as a function.
+ *    __set_state() is called when var_export() is called on an object.
+ *    __clone() is called when an object is cloned.
+ *    __debugInfo() is called when var_dump() is called on an object.
+ *    __autoload() is called when a class is called that does not exist.
  */
 
 /**** 78
  * Explain soundex() and metaphone().
+ * 
+ * ** soundex() is used to calculate the soundex key of a string.
+ *    metaphone() is used to calculate the metaphone key of a string.
  */
 
 /**** 79
  * What is the difference between abstract classes and interfaces in PHP?
+ * 
+ * ** Abstract classes can have properties while interfaces can't.
  */
 
 /**** 80
