@@ -178,42 +178,85 @@
 
 /**** 21
  * What are the __construct() and __destruct() methods in a PHP class?
+ * 
+ * ** __construct() is a method that is automatically called when an object is initialized.
+ *    __destruct() is a method that is automatically called when an object is destroyed.
  */
 
 /**** 22
  * How we can get the number of elements in an array?
+ * 
+ * ** By using the fuction `count()` => count($array);
  */
 
 /**** 23
  * What are the 3 scope levels available in PHP and how would you define them?
+ * 
+ * ** 1. Local: declared within a function has a LOCAL SCOPE and can only be accessed within that function.
+ *    2. Global: declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function.
+ *    3. Static: declared within a function has a STATIC SCOPE and can only be accessed within that function.
  */
 
 /**** 24
  * What are getters and setters and why are they important?
+ * 
+ * ** Getters and setters are methods used to get and set the values of variables.
+ *    They are important because they allow you to control the values of variables with a layer of security.
  */
 
 /**** 25
  * What does MVC stand for and what does each component do?
+ * 
+ * ** MVC stands for Model View Controller.
+ *    Model: is the data layer of the application.
+ *    View: is the presentation layer of the application.
+ *    Controller: is the logic layer of the application.
  */
 
 /**** 26
  * What are SQL Injections, how do you prevent them and what are the best practices?
+ * 
+ * ** SQL Injections are malicious code that is used to manipulate a database.
+ *    To prevent them, you should use prepared statements and parameterized queries.
+ *    Best practices are to use PDO and to never trust user input.
  */
 
 /**** 27
  * What are PSRs? Choose 1 and briefly describe it.
+ * 
+ * ** PSRs are PHP Standards Recommendations.
+ *    PSR-1: Basic Coding Standard
+ *    PSR-2: Coding Style Guide
+ *    PSR-3: Logger Interface
+ *    PSR-4: Autoloader
+ *    PSR-5: PHPDoc
+ *    PSR-6: Caching Interface
+ *    PSR-7: HTTP Message Interface
+ *    PSR-11: Container Interface
+ *    PSR-13: Hypermedia Links
+ *    PSR-14: Event Dispatcher
+ *    PSR-15: HTTP Handlers
+ *    PSR-16: Simple Cache
+ *    PSR-17: HTTP Factories
+ *    PSR-18: HTTP Client
  */
 
 /**** 28
  * Describe how inheritance works with PHP.
+ * 
+ * ** Inheritance is a mechanism that allows you to create a new class from an existing class.
  */
 
 /**** 29
  * Who do we know as the father of PHP?
+ * 
+ * ** Rasmus Lerdorf
  */
 
 /**** 30
  * What did the acronym PHP originally stand for?
+ * 
+ * ** Personal Home Page
  */
 
 /**** 31
