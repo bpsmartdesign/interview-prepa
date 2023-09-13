@@ -1,15 +1,6 @@
 <?php
-/**** PROBLEM 1
- * Write a php function to convert a json to an array,
- * consider the fact that one or more values in the json can also be the json.
- * So your function should take that in consideration and transform everything,
- * at the end, we should have valid array , and all json should be transformed to array.
- * Your input json is a string
- */
-
-
 /**** PROBLEM 2
- * Write a php function that is going to move files in a main folder , to subfolder. 
+ * Write a php function that is going to move files in a main folder, to subfolder. 
  * For example, if i am in a folder "main", and i have 15 files i should be able to call the function
  * and pass a parameter which is the number of maximum files.
  */
@@ -206,7 +197,3 @@
 /**** PROBLEM 46
  * 
  */
-
-
-
- 
