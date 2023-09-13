@@ -327,82 +327,137 @@
 
 /**** 41
  * How can you pass a variable by reference?
+ * 
+ * ** By using the ampersand (&) => function foo(&$var) { ... }
  */
 
 /**** 42
  * What does $GLOBALS mean?
+ * 
+ * ** $GLOBALS is a PHP super global variable which is used to access global variables from anywhere in the PHP script.
  */
 
 /**** 43
  * What is the use of ini_set() function?
+ * 
+ * ** The ini_set() function is used to set the value of a configuration option.
  */
 
 /**** 44
  * What are the differences between die and exit?
+ * 
+ * ** die() and exit() are equivalent.
  */
 
 /**** 45
  * What are the difference between const and define?
+ * 
+ * ** const is a language construct while define is a function.
+ *    const can be used in classes while define can't.
  */
 
 /**** 46
  * What is PDO in PHP ?
+ * 
+ * ** PDO stands for PHP Data Objects.
+ *    PDO is a lean, consistent way to access databases.
+ *    PDO is a database access layer providing a uniform method of access to multiple databases.
  */
 
 /**** 47
  * What is stdClass in PHP ?
+ * 
+ * ** stdClass is a generic empty class that is used to store data.
  */
 
 /**** 48
  * What are the differences between var_dump and print_r
+ * 
+ * ** var_dump() displays structured information about one or more expressions that includes its type and value.
+ *    print_r() displays information about a variable in a way that's readable by humans.
  */
 
 /**** 49
  * What's the diefferences between isset() and array_key_exists() ?
+ * 
+ * ** isset() checks if a variable has a value including (false, 0, or empty string) while
+ *    array_key_exists() checks if the key exists in the array.
  */
 
 /**** 50
  * How to check if an array is associative
+ * 
+ * ** By using the function `array_keys()` => array_keys($array) !== range(0, count($array) - 1);
  */
 
 /**** 51
  * What is the differences between error and exception in PHP?
+ * 
+ * ** An error is a problem that occurs unexpectedly that prevents the script from running correctly.
+ *    An exception is a problem that occurs unexpectedly that allows the script to run correctly.
  */
 
 /**** 52
  * Explain differences between exec(), eval(), system() and passthru() functions.
+ * 
+ * ** exec() executes an external program and returns the last line of the output.
+ *    eval() evaluates a string as PHP code.
+ *    system() executes an external program and displays the output.
+ *    passthru() executes an external program and displays raw output.
  */
 
 /**** 53
  * What is Singleton class in PHP?
+ * 
+ * ** A Singleton class is a class that can only be instantiated once.
  */
 
 /**** 54
  * What are the differences between array_map, array_walk and array_filter?
+ * 
+ * ** array_map() returns an array containing all the elements of the original array after applying the callback function to each one.
+ *    array_walk() applies a user function to every member of an array.
+ *    array_filter() filters elements of an array using a callback function.
  */
 
 /**** 55
  * What is the differences between array_merge and array_combine?
+ * 
+ * ** array_merge() merges one or more arrays into one array.
+ *    array_combine() creates an array by using one array for keys and another for its values.
  */
 
 /**** 56
  * What is the differences between PDO's query() and execute()
+ * 
+ * ** query() executes an SQL statement in a single function call while
+ *    execute() prepares an SQL statement and executes it.
  */
 
 /**** 57
  * What is null of coalescing operator?
+ * 
+ * ** The null coalescing operator (??) 
+ *    is used to check if a value exists and return it if it does, otherwise return a default value.
  */
 
 /**** 58
  * Compare MySQLi and PDO
+ * 
+ * ** MySQLi is an extension of PHP's mysqli class.
+ *    PDO is a PHP extension that defines a lightweight, consistent interface for accessing databases in PHP.
  */
 
 /**** 59
  * Does PHP have threading?
+ * 
+ * ** No, PHP does not have threading.
  */
 
 /**** 60
  * How to measure execution time of php scripts
+ * 
+ * ** By using the function `microtime()` => microtime(true);
  */
 
 /**** 61
