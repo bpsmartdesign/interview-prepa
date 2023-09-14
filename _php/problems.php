@@ -11,9 +11,6 @@
  * that can run your query and just return the result as array.
  */
 
-/**** PROBLEM 4 [Merge Sort]
- * Implement the merge sort algorithm to sort an array of integers in ascending order.
- */
 
 /**** PROBLEM 5 [Longest Palindromic Substring]
  * Given a string, find the longest substring that is a palindrome. A palindrome is a word,
