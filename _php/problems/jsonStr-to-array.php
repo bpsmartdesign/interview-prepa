@@ -68,6 +68,6 @@ $t4 = '{
 }';
 
 print_r(jsonToArray($t1));
-print_r(jsonToArray($t2));
-print_r(jsonToArray($t3));
-print_r(jsonToArray($t4));
+// print_r(jsonToArray($t2));
+// print_r(jsonToArray($t3));
+// print_r(jsonToArray($t4));

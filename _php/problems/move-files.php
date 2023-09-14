@@ -23,7 +23,7 @@ function moveFiles (string $path, int $maxFiles): void {
     echo 'An error occured while reading the folder';
     return;
   }
-  
+
   foreach($mixed as $element) {
     if (is_file($path . '/' . $element)) $files[] = $element;
   }
@@ -38,8 +38,8 @@ function moveFiles (string $path, int $maxFiles): void {
 
     for ($j = 0; $j < $maxFiles; $j++) {
       if ($i * $maxFiles + $j >= count($files)) break;
-      
-      if (copy($path . '/' . $files[$i * $maxFiles + $j], $subfolderPath . $files[$i * $maxFiles + $j]))
+
+      if (rename($path . '/' . $files[$i * $maxFiles + $j], $subfolderPath . $files[$i * $maxFiles + $j]))
         echo 'File ' . $files[$i * $maxFiles + $j] . ' moved to ' . $subfolderPath . PHP_EOL;
       else
         echo 'An error occured while moving file ' . $files[$i * $maxFiles + $j] . PHP_EOL;
@@ -47,4 +47,4 @@ function moveFiles (string $path, int $maxFiles): void {
   }
 }
 
-moveFiles('main', 5);
+moveFiles('./../main', 5);
