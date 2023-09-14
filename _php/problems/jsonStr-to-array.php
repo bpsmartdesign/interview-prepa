@@ -18,7 +18,7 @@ function isValidJson (string $json): bool {
 }
 
 // personal solution using regexp and recursion
-function jsonToArray (string $json) {
+function jsonToArray (string $json): array {
   $json = cleanJson($json);
   $array = [];
 

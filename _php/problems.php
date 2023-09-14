@@ -1,10 +1,4 @@
 <?php
-/**** PROBLEM 2
- * Write a php function that is going to move files in a main folder, to subfolder. 
- * For example, if i am in a folder "main", and i have 15 files i should be able to call the function
- * and pass a parameter which is the number of maximum files.
- */
-
 /**** PROBLEM 3
  * Let's suppose you have to retrieve 10 000 records from the database and store it in a file.
  * Write a php script or function to do this ; don't forget you don't have much memory space,
