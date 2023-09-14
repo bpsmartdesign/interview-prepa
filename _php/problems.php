@@ -11,12 +11,6 @@
  * that can run your query and just return the result as array.
  */
 
-
-/**** PROBLEM 5 [Longest Palindromic Substring]
- * Given a string, find the longest substring that is a palindrome. A palindrome is a word,
- * phrase, number, or other sequence of characters that reads the same forward and backward.
- */
-
 /**** PROBLEM 6 [Two Sum]
  * Given an array of integers and a target sum, find two numbers in the array that add up to the target sum.
  * Return the indices of the two numbers.
